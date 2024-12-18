@@ -1,7 +1,52 @@
-h1{
-  color: blanchedalmond;
-}
-
 p{
   color: chocolate;
+  border-style: solid ridge;
+  border-color: aquamarine;
+  border-radius: 5px;
+}
+
+#welcome {
+  color: #ffffff;
+}
+
+.text {
+  color: black;
+}
+
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: azure;
+  background-image: cross-fade();
+}
+
+h1,h2,h3 {
+  color: black;
+  opacity: 50%; 
+}
+
+/* background shorthand */
+body {
+  background: #ffffff url(../html/images/sre.webp) no-repeat right top;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #f2f2f2; /* Light Gray background */
+}
+
+th {
+  text-align: center;
+  padding: 15px;
+  background-color: #dddddd; /* Slightly darker gray for headers */
+}
+
+td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left; 
+}
+
+td:hover{
+  background-color: aquamarine;
 }
